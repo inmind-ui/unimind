@@ -2,6 +2,8 @@
 
 UniMind is an Arabic-first learning platform for university students. It is designed to bring a student's lectures, course context, and study guidance into one focused experience.
 
+UniMind is an Arabic-first learning platform for university students. It is designed to bring a student's lectures, course context, and study guidance into one focused experience.
+
 The current project includes a polished right-to-left student interface and phone-based student authentication. The interface demonstrates the intended AI study-assistant experience; a live AI provider is **not** connected yet.
 
 ## What is included
