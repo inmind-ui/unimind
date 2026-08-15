@@ -23,24 +23,24 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: baseUrl,
-    title: "Doctor AI | افهم محاضرتك بذكاء",
+    title: "UniMind | ذكاء يعرف كليتك ويفهم منهجك",
     description:
-      "منصة تعليمية ذكية تساعد طلاب الطب على فهم المحاضرات ومناقشتها مع مساعد AI يفهم سياق المحتوى.",
+      "منصة جامعية ذكية تعرف كليتك وفرقتك ومحاضراتك، وتمنحك مساعد AI يفهم سياق دراستك.",
     icons: {
       icon: "/favicon.svg",
       shortcut: "/favicon.svg",
     },
     openGraph: {
-      title: "Doctor AI | كل محاضرة بداية لفهمٍ لا ينتهي",
-      description: "ارفع محاضرتك وناقشها مع مساعد ذكي يفهم سياقها.",
+      title: "UniMind | ذكاء يعرف كليتك ويفهم منهجك",
+      description: "كل محاضراتك جاهزة، ومساعدك الذكي يعرف كليتك وفرقتك وسياق دراستك.",
       type: "website",
       locale: "ar_EG",
-      images: [{ url: previewUrl, width: 1730, height: 909 }],
+      images: [{ url: previewUrl, width: 1536, height: 1024 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Doctor AI",
-      description: "كل محاضرة بداية لفهمٍ لا ينتهي.",
+      title: "UniMind",
+      description: "ذكاء يعرف كليتك ويفهم منهجك.",
       images: [previewUrl],
     },
   };
